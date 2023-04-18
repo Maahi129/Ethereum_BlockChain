@@ -1,0 +1,160 @@
+/* label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,label {
+    margin: 0.4rem 0;
+} */
+
+#topdiv {
+    padding-top: 100px;
+}
+
+#detaildiv {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    align-items: center;
+    
+}
+
+#purchases{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 35px;
+    margin-top: 30px;
+}
+
+#detaildiv img {
+    width: 238px;
+    height: 190px;
+    border-bottom: none;
+   
+}
+
+#flexdiv {
+    display: flex;
+    width: 240px;
+    flex-wrap: wrap;
+    /* background: rgba(255, 245, 245, 0.789); */
+    background-color: #e3e3ff;
+    color: #333;
+    font-size: 1.6rem;
+    text-align: left;
+    font-weight: bold;
+    /* padding-left: 20px; */
+    border: 2px solid rgb(130, 130, 130);
+    margin-left: 30px;
+    margin-bottom: 40px;
+   
+}
+
+#flexdiv p {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#anchor {
+    color: rgb(0, 136, 255);
+    
+}
+
+#anchor:hover {
+    color: #397bff;
+    opacity: 60%;
+    background: transparent;
+}
+
+#topdiv input {
+    width: 600px;
+    height: 50px;
+    background-color: rgba(255, 245, 245, 0.789);
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+
+#topdiv button {
+    width: 100px;
+    height: 50px;
+    font-size: 1.6rem;
+    border-radius: 10%;
+    color: black;
+}
+
+.page a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 500px;
+  }
+
+.page a.active {
+    background-color: #e985ff;
+    color: white;
+  }
+
+#flex{
+    width: 350px;
+    height: 250px;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    color: black;
+    opacity: 50%;
+    font-weight: bolder;
+    font-size: 1.7rem;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#more {
+    max-width: 220px;
+    word-wrap: break-word;
+}
+
+#download{
+    position: relative;
+    left: 50px;
+}
+  
+.page a:hover:not(.active) {background-color: #ddd;}
+
+@media screen and (max-width: 576px) {
+    #topdiv input{
+        width: 280px;
+        height: 40px;
+        position: relative;
+        top: 140px;
+        left: 10px;
+    }
+    #topdiv button {
+        width: 70px;
+        height: 30px;
+        position: relative;
+        top: 190px;
+        right: 170px;
+    }
+    #detaildiv{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 100px;
+        top: 170px;
+        /* background-image: linear-gradient(150deg, #c33764, #1d2671);; */
+    }
+    .page {
+        position: relative;
+        top: 130px;
+        
+    }
+    .page a{
+        color: black;
+    }
+}

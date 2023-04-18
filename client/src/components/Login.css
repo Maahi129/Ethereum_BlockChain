@@ -1,0 +1,177 @@
+label {
+    font-size: medium;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border: 3px solid #8c00ff;
+  }
+
+
+
+h1 {
+    padding-bottom: 10px;
+}
+
+.auth-form-container {
+    width: 550px;
+}
+
+.login-form{
+    width: 450px;
+}
+
+#username {
+    position: relative;
+    left: 15px;
+}
+
+#password {
+    position: relative;
+    left: 15px;
+}
+
+#buttons {
+    flex-direction: column;
+}
+
+.b1{
+    position: relative;
+    left: 65px;
+    margin-top: 20px;
+   
+}
+.b2 {
+    position: relative;
+    left: 100px;
+    margin-top: 20px;
+}
+
+#username {
+    background: rgba(255,255,255,0.4);
+    border: none;
+    /* display: block; */
+    font-size: 1.6rem;
+    font-weight: bold;
+    outline: none;
+    width: 300px;
+    height: 30p;
+    margin: 0 auto;
+    padding: 10px;
+    color: #333;
+    -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+  }
+  ::-webkit-input-placeholder { color: #666;} 
+  :-moz-placeholder { color: #666; }
+  ::-moz-placeholder { color: #666; }
+  :-ms-input-placeholder { color: #666;
+}
+
+#password {
+    background: rgba(255,255,255,0.4);
+    border: none;
+    /* display: block; */
+    font-size: 1.6rem;
+    font-weight: bold;
+    outline: none;
+    width: 300px;
+    height: 30p;
+    margin: 0 auto;
+    padding: 10px;
+    color: #333;
+    -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+  }
+  ::-webkit-input-placeholder { color: #666;} 
+  :-moz-placeholder { color: #666; }
+  ::-moz-placeholder { color: #666; }
+  :-ms-input-placeholder { color: #666;
+}
+
+input[type=number] {
+    background: rgba(255,255,255,0.4);
+    border: none;
+    /* display: block; */
+    font-size: 1.6rem;
+    font-weight: bold;
+    outline: none;
+    width: 300px;
+    height: 30p;
+    margin: 0 auto;
+    padding: 10px;
+    color: #333;
+    -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+  }
+  ::-webkit-input-placeholder { color: #666;} 
+  :-moz-placeholder { color: #666; }
+  ::-moz-placeholder { color: #666; }
+  :-ms-input-placeholder { color: #666;
+}
+
+#sellerbtn {
+    width: 200px;
+    background-color: transparent;
+    color: white;
+     width: 290px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-weight: bolder;
+    font-size: 1.5rem
+}
+#sellerbtn:hover{
+    color: black;
+    background-color: white;
+    opacity: 80%;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 576px) {
+    /* CSS styles for small screens */
+    .login-form{
+        width: 250px;
+        height: 400px;
+    }
+    .auth-form-container {
+        width: 400px;
+        align-items: start;
+        justify-content: end;
+    }
+    .login-form > h1 {
+        text-align: center;
+        font-size: 2rem;
+        margin-left: 100px;
+    }
+    #usrname {
+       display: flex;
+       flex-direction: column;
+       margin-left: 40px;
+       position: relative;
+       top: 10px;
+       
+    }
+    #username  {
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+    #password  {
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+    #private {
+        display: flex;
+        flex-direction: column;
+        margin-left: 45px;
+    }
+    #btn {
+        margin-top: 20px;
+    }
+  }
+  

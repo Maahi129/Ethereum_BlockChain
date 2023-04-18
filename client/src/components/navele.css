@@ -1,0 +1,145 @@
+nav {
+    /* background-color: #2c2c2c; */
+    background-image: linear-gradient(80deg, #be154a,#3300ff );
+    opacity: 90%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    border-bottom-style:none;
+  }
+
+  ul h2 {
+    position: relative;
+    right: 330px;
+  }
+
+
+  .navigation a{
+    position: relative;
+    font-size: 1.7rem;
+    color: #fff;
+    
+    text-decoration: none;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif
+  }
+
+  .navigation a:hover {
+    color: #fff;
+    opacity: 80%;
+    background: transparent;
+  }
+  .navigation a::after {
+    content: '';
+    position: absolute;
+    left: 12px;
+    bottom: 0px;
+    width: 75%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+  }
+  .navigation a:hover::after{
+    transform: scaleX(1);
+  }
+
+  .navigation .logout {
+    width: 110px;
+    height: 35px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 7px;
+    color: #fff;
+  }
+
+  .logout:hover {
+    background-color: white;
+    color: black;
+    opacity: 75%;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    right: 70px;
+    
+  }
+  
+  li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-left: 90px;
+    color: white;
+  }
+  
+  a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    background-color: #2e2e2e;
+  }
+
+ 
+  
+  /* make sure the content is below the navbar */
+  body {
+    margin-top: 20px;
+  }
+
+
+  @media screen and (max-width: 576px) {
+
+    /* #navdiv{
+      width: 250px;
+      height: 400px;
+    } */
+
+    .navigation  h2 {
+      padding-left: 200px;
+    }
+    nav{
+      width: 0%;
+      display: flex;
+      flex-direction: column;
+      margin-left: 330px;
+      
+    }
+    .navigation{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 300px;
+      margin-top: 30px;
+    }
+   .navigation > ul {
+    display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+
+   }
+  }
+  
+  
+  
+  
+  
+  
+
+  

@@ -1,0 +1,46 @@
+.welcome {
+    font-size: 80px;
+    margin-bottom: 120px;
+}
+
+.userdiv{
+    width: 180px;
+    height: 70px;
+    background-color:transparent;
+    background: rgba(255,255,255,0.4);
+    /* margin-left: 200px; */
+    font-size: 1.5rem;
+    color: black;
+    font-weight:900;
+    font-family:Arial, Helvetica, sans-serif;
+    opacity: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 150px;
+}
+
+#dashfull {
+    flex-direction: row;
+    display: flex;
+}
+
+
+@media screen and (max-width: 576px) {
+    .welcome{
+        font-size: 5.5rem;
+        /* margin-top: 240px;  */
+        margin-right: 70px;
+        margin-top: 120px;
+        position: relative;
+       top: 70px;   }
+    #dashfull {
+        flex-direction: column;
+        display: contents;
+    }
+    .userdiv{
+        position: relative;
+        bottom: 10px;
+        margin-bottom: 80px;
+    }
+}
